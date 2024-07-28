@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% block extra_head %}
     {% endblock %}
-    <title>{% block page_title %}{{ current_site.name }} - Simple Project Management System{% endblock %}</title>
+    <title>{% block page_title %}TIME-LINE - Simple Project Management System{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/bulma-0.7.4.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/bulma-calendar.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/bulma-tagsinput.min.css' %}">
@@ -23,7 +23,7 @@
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
             <h1 class="title has-text-white-bis">
-              {{ current_site.name }}
+              TIME-LINE
             </h1>
         </a>
 
@@ -49,7 +49,7 @@
             Stories
           </a>
           {% endif %}
-          <div class="navbar-item has-dropdown is-hoverable">
+          <!-- <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
               More
             </a>
@@ -62,7 +62,7 @@
                 Report an issue
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="navbar-end">
@@ -112,9 +112,7 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Matorral</strong> by <a target="_blank" href="https://github.com/matagus">matagus</a>.
-        <p>
-          Built with ❤️, <a target="_blank" href="https://bulma.io/">Bulma</a> &amp; <a target="_blank" href="https://www.djangoproject.com/">Django</a>.
+          <strong>Simple Project Management tool</strong>
         </p>
       </div>
     </footer>
